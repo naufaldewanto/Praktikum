@@ -1,0 +1,80 @@
+*,
+*:before,
+*:after{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgba(255, 202, 227, 0.6);
+    position: fixed;
+    top: 0;
+    padding: 25px 35px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+}
+
+.list-navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style:none;
+}
+
+.text-navbar{
+    display: inline-block;
+}
+
+.text-navbar a{
+    margin-left: 40px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#header {
+    background-color: rgb(255, 219, 219);
+    display: flex;
+    margin-top: 69px;
+    height: 130px;
+    width: 100%;
+}
+
+.header-text1{
+    display: flex;
+}
+
+.header-text2{
+    position: relative;
+    top: 50px;
+    right: 320px;
+}
+
+#tentang{
+    text-transform: capitalize;
+}
+
+video{
+    justify-content: center;
+}
+
+#kerja{
+    text-transform: capitalize;
+}
+
+table{
+    border: 1px;
+}
